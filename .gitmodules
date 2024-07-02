@@ -1,3 +1,6 @@
 [submodule "deps/happly"]
 	path = deps/happly
 	url = https://github.com/nmwsharp/happly.git
+[submodule "deps/nanobind"]
+	path = deps/nanobind
+	url = https://github.com/wjakob/nanobind.git
