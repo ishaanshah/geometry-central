@@ -79,9 +79,11 @@ install(
   PATTERN "*.ipp")
 
 nanobind_add_module(geometry_central
-  python/utilities/main.cpp
-  python/utilities/main.h
+  python/main.cpp
+  python/main.h
   python/utilities/vector.cpp
+  python/surface/mesh.cpp
+  python/surface/geometry.cpp
 )
 
 target_include_directories(geometry_central PRIVATE include)
