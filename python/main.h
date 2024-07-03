@@ -7,3 +7,4 @@ namespace nb = nanobind;
 void export_mesh(nb::module_ &m);
 void export_vector(nb::module_ &m);
 void export_geometry(nb::module_ &m);
+void export_poisson_disk_sampler(nb::module_ &m);

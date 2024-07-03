@@ -84,6 +84,7 @@ nanobind_add_module(geometry_central
   python/utilities/vector.cpp
   python/surface/mesh.cpp
   python/surface/geometry.cpp
+  python/surface/poisson_disk_sampler.cpp
 )
 
 target_include_directories(geometry_central PRIVATE include)

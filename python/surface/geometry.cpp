@@ -23,5 +23,5 @@ void export_geometry(nb::module_ &m) {
 
     nb::class_<VertexPositionGeometry,EmbeddedGeometryInterface>(m, "VertexPositionGeometry")
         .def(nb::init<SurfaceMesh &>())
-        .def(nb::init<SurfaceMesh &, Eigen::Matrix<float, -1, 3>>())
+        .def(nb::init<SurfaceMesh &, Eigen::Matrix<float, -1, 3>>());
 }
